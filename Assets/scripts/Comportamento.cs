@@ -23,7 +23,7 @@ public class Comportamento : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            jogadorRb.rotation = rotacao + (rotacao * Time.deltaTime);
+            jogadorRb.rotation = jogadorRb.rotation + (rotacao * Time.deltaTime);
          
         }
             
