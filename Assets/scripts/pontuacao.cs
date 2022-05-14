@@ -21,6 +21,7 @@ public class pontuacao : MonoBehaviour
 
     void AsteroideDestruido()
     {
+        pontos += 1;
         Debug.Log("Asteroide Destruido!");  
     }
     void   AtualizacaoTextoPontos ()
