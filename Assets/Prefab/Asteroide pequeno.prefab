@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4615737657362355222}
   - component: {fileID: 4615737657362355226}
   m_Layer: 8
-  m_Name: Asteroide
+  m_Name: Asteroide pequeno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4615737657362355217}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7404, y: 1.203, z: 0}
-  m_LocalScale: {x: 2.6222, y: 2.0815, z: 1}
+  m_LocalPosition: {x: -3.6671, y: 1.219, z: 0}
+  m_LocalScale: {x: 2.8754194, y: 1.9191954, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -136,3 +136,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   asteroidRb: {fileID: 4615737657362355223}
   velocidademaxima: 1
+  Bala: {fileID: 3409204181935881979, guid: cae82b6bff5529b4e9fbe7a860a792be, type: 3}
+  quantidadefragmentos: 0
+  prefabAsteroideMenor: {fileID: 0}
